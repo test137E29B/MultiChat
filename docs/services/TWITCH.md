@@ -1,5 +1,7 @@
 # Twitch.tv Chat Integration
 
+The Twitch.tv Chat Integration allows you to connect to your Twitch channel's chat, even while you're offline, to receive messages. You can also send messages to the chat, and delete messages from the chat, if you have permissions. Future support is planned for moderation actions, such as bans and timeouts.
+
 ## Service Config
 
 ```json
