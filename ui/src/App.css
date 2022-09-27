@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+}
+
+/* Themes */
+
+:root {
+  /* Default variables, in the case a theme does not overwrite them itself */
+  --background-color: #1e1e1e;
+  --color: #fff;
+  --font: 'Roboto', sans-serif;
+}
+
+body[data-theme='dark-theme'] {
+  --background-color: #1e1e1e;
+  --color: #fff;
+}
+
+body[data-theme='light-theme'] {
+  --background-color: #fff;
+  --color: #000;
+}
+
+/* Styles */
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: var(--font);
+}

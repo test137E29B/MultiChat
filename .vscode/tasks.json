@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "npx tsc -w -p .",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "App Watcher",
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+      "options": {
+        "cwd": "app"
+      },
+			"presentation": {
+				"reveal": "never"
+			}
+		},
+    {
+			"type": "shell",
+			"command": "npx tsc -w -p .",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "UI Watcher",
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+      "options": {
+        "cwd": "ui"
+      },
+			"presentation": {
+				"reveal": "never"
+			}
+		}
+	]
+}

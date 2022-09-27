@@ -1,0 +1,45 @@
+{
+  "search.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": true,
+    "**/*.js.map": true,
+    "**/*.chunk.css": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "build.bat": true,
+    "**/*.json": true,
+    "**/*.tsbuildinfo": true,
+    "**/*.mjs": true,
+    "**/*.d.ts": true,
+    "**/*.targets": true,
+    "**/*.html": true
+  },
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "typescript",
+    "json",
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "emmet.showExpandedAbbreviation": "never",
+  "task.allowAutomaticTasks": "on"
+}
